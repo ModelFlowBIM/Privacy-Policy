@@ -1,6 +1,6 @@
 Effective date: [29-07-2026]
 Publisher: [ModelFlow]
-Contact: [ModelFlow_@outlook.com]
+Contact: [ModelflowBIM@gmail.com]
 
 1. Data Collection
 
@@ -36,4 +36,4 @@ Users may stop using the add-in at any time by disabling or uninstalling it from
 
 If users have questions about this privacy policy, they may contact the publisher at:
 
-[ModelFlow_@outlook.com]
+[ModelflowBIM@gmail.com]
