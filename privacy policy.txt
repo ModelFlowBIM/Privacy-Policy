@@ -1,39 +1,47 @@
-Effective date: [29-07-2026]
-Publisher: [ModelFlow]
-Contact: [ModelflowBIM@gmail.com]
+ModelFlow Privacy Policy
 
-1. Data Collection
+Effective date: 3 November 2026
+Publisher: ModelFlow
+Contact: ModelflowBIM@gmail.com
 
-The Copy with Base Point add-in for Autodesk Revit does not collect, store, transmit, or process any personal data from users.
+1. Scope
 
-The add-in also does not collect or transmit Revit project data, model data, user files, object selections, geometry, coordinates, or any other information from the user’s Revit environment.
+This policy covers the ModelFlow CopyBase (Copy with Base Point), ClashGuard, ExportFlow and ViewFlow add-ins for Autodesk Revit. It explains how these add-ins handle information when you use them.
 
-All operations performed by the add-in take place locally within Autodesk Revit on the user’s computer.
+2. Revit models and project information
 
-2. Use of Data
+The add-ins access Revit documents, elements, selections, views and other model information as needed to perform the commands you choose. For example, CopyBase copies and pastes selected elements, ClashGuard checks and reports clashes, ExportFlow exports selected Revit content, and ViewFlow creates views and section boxes.
 
-Because the add-in does not collect any personal data or project data, no data is used for analytics, advertising, licensing, tracking, marketing, or any other purpose.
+These operations are performed within Revit on your computer. The ModelFlow update and announcement requests described below do not include Revit project files, model geometry, element selections or coordinates. Your Revit environment, Autodesk services, linked files and other software may process information separately under their own terms and privacy notices.
 
-3. Data Sharing with Third Parties
+3. Internet connections and third parties
 
-The add-in does not share any personal data or project data with third parties.
+The add-ins connect to GitHub to check available and minimum supported versions, download updates, and retrieve ModelFlow announcements. These checks may occur when Revit starts and, for announcements, in the background while Revit is open. GitHub is a third-party service and receives the network requests needed to provide these files. GitHub may process connection information such as your IP address, request time and technical request details. See GitHub's privacy statement: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
 
-The add-in does not use third-party analytics tools, advertising networks, tracking tools, external SDKs, or cloud services.
+The add-ins do not send Revit project content to ModelFlow or GitHub as part of these update and announcement checks. If you choose a network or cloud location for an export or report, that location and its service provider handle the resulting files according to your configuration and their own policies. Help links may open Autodesk websites.
 
-4. Data Retention and Deletion
+4. Information stored on your computer
 
-Because the add-in does not collect or store any personal data or project data, there is no user data retained by the publisher.
+The add-ins may store settings, export profiles and model-related selections locally so your preferences can be restored. ClashGuard can store settings and model-selection information under your Windows application data folder. The shared announcement system stores a small record of messages you have already seen, including a timestamp, under your local Windows application data folder. This helps avoid showing certain messages repeatedly.
 
-As no data is stored, there is no data to delete.
+When you choose to export content or create reports, the add-ins write the requested files to the locations you select. Such files can contain model information and, for example, a Revit username in a clash report. ExportFlow and the updater may also create temporary files; the updater attempts to remove its temporary files after use, although files can remain if a process is interrupted or cleanup fails. Revit documents may also contain changes you choose to save.
 
-5. User Consent and Revocation
+5. How information is used and shared
 
-Because the add-in does not collect or process personal data, no separate consent is required for data collection.
+ModelFlow uses the information processed by the add-ins to perform your requested Revit operations, remember settings and displayed messages, provide updates and display announcements. The update and announcement services use GitHub as described above. The add-ins do not include ModelFlow advertising or analytics tracking. ModelFlow does not receive the contents of your Revit models through these update or announcement checks.
 
-Users may stop using the add-in at any time by disabling or uninstalling it from Autodesk Revit.
+If you contact ModelFlow, we receive the information you provide, such as your email address and the content of your message, and use it to respond and provide support. Please avoid sending confidential project or personal information unless necessary.
 
-6. Contact
+6. Retention and deletion
 
-If users have questions about this privacy policy, they may contact the publisher at:
+Local settings and message records can remain on your computer until you remove them; uninstalling an add-in may not remove all saved settings, temporary files, exports, reports or Revit document changes. You can remove unwanted local ModelFlow settings and message records from your Windows application data folders and delete exports or reports you created, subject to your organisation's retention rules. The seen-message records are stored in %LOCALAPPDATA%\ModelFlow\SeenMessages. ClashGuard settings are stored under %APPDATA%\ModelFlowRevitAddon. Some settings may be shared by ModelFlow add-ins, so removing them may reset preferences for more than one add-in.
 
-[ModelflowBIM@gmail.com]
+GitHub's handling and retention of information it receives are governed by its own privacy statement. To request access, correction or deletion of information you have sent directly to ModelFlow, contact us at the email address below. We will consider requests in accordance with applicable law; some information may need to be retained where required or permitted by law.
+
+7. Your choices
+
+You can stop using the add-ins by disabling or uninstalling them. An internet connection is needed for update and announcement checks; if GitHub cannot be reached, those checks may not work. Your organisation may control network access, Revit documents and shared storage. This policy does not replace notices provided by Autodesk, GitHub or your organisation.
+
+8. Changes and contact
+
+We may update this policy when the add-ins or their data practices change. The current version and its effective date will be available in this repository. For privacy questions or requests, contact ModelFlow at ModelflowBIM@gmail.com.
